@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cont-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
