@@ -6,7 +6,7 @@
 
 
 .navbar {
-    margin: 0 50px;
+    margin: 0px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,3 +17,68 @@
     align-items: center;
     gap: 20px;
 }
+.search-bar-container{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    width: 450px;
+    height: 30px;
+    padding-left:10px;
+    justify-content: space-between;
+}
+.search-bar-container input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.search-button{
+    background-color: rgb(239, 239, 239);
+    color: black;
+    border: 1px solid gray;
+    font-weight: bolder;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+.menu-icon{
+    cursor: pointer;
+}
+.menu-icon:hover {
+    padding: 10px;
+    background-color: rgb(239, 239, 239);
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: #3056A9;
+}
+.nav-links ul li a:hover {
+text-decoration: underline;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sidebar{
+    position: sticky;
+    float: right;
+    width: 250px;
+    height: 500px;
+
+}
+.sidebar-hr {
+    border: 1px solid #eee;
+    margin: 10px 0;
+    width: 70%;
+}
+.radios label{
+    display: block;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
