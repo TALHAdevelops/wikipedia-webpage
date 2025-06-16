@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
 }
 
 
@@ -62,13 +64,22 @@ text-decoration: underline;
 .links{
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+.links a {
+        color: #3056A9;
+        padding-left: 15px;
+        text-decoration: none;
+        
 }
 .sidebar{
-    position: sticky;
-    float: right;
+      position: sticky;
+    top: 50px;
     width: 250px;
-    height: 500px;
+    height: fit-content;
+    margin: 0 30px;
 
 }
 .sidebar-hr {
@@ -81,4 +92,154 @@ text-decoration: underline;
     margin: 20px 0;
     cursor: pointer;
 }
-
+select{
+    border: none;
+    margin: 0px 10px;
+    padding: 5px;
+    font-size: medium;
+}
+.heading-1{
+    text-align: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    padding: 20px;
+}
+.heading-1 a {
+    text-decoration: none;
+    color: #3056A9;
+}
+.heading-1 a:hover {
+    text-decoration: underline;
+}
+.articles{
+display: flex;
+gap: 10px;
+}
+.art-1{
+    padding: 10px;
+    width: 50%;
+    background-color: #F5FFFA;
+    border: 1px solid #CEF2E0;
+}
+.art-1 h3{
+    padding: 10px;
+    background-color: #CEF2E0;
+    border: 1px solid #CEF2E0;
+}
+.art-2{
+    padding: 10px;
+    width: 50%;
+    background-color: #F5FAFF;
+    border: 1px solid #CFE0F2;
+}
+.art-2 h3{
+    padding: 10px;
+    background-color: #CFE0F2;
+    border: 1px solid #CFE0F2;
+}
+.main-h{
+    font-weight: bold;
+    color: #3056A9;
+    font-size: larger;
+}
+.highlights{
+    color: #3056A9;
+    cursor: pointer;
+}
+.highlights:hover {
+    text-decoration: underline;
+}
+.news-list{
+    
+    padding: 10px;
+}
+.news-list li {
+    margin: 10px 0;
+}
+.m-h{
+    font-weight: bold;
+    color: #3056A9;
+    text-align: center;
+    cursor: pointer;
+}
+.m-h:hover {
+    text-decoration: underline;
+}
+.art-3{
+    margin: 20px 0;
+    background-color: #FFF5FA;
+    border: 1px solid #F2CEDD;
+    padding: 10px;
+}
+.art-3 h3{
+    padding: 10px;
+    background-color: #F2CEDD;
+    border: 1px solid #F2CEDD;
+}
+.art-4{
+    margin: 20px 0;
+    background-color: #FAF5FF;
+    border: 1px solid #DDCEF2;
+    padding: 10px;
+}
+.art-4 h3{
+    padding: 10px;
+    background-color: #DDCEF2;
+    border: 1px solid #DDCEF2;
+}
+.wiki-information{
+        margin: 20px 0;
+    background-color: white;
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+}
+.wiki-information h3{
+    padding: 10px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+.wiki-info-list{
+    padding: 20px;
+    line-height: 2;
+    
+}
+.sister-projects{
+    display: flex;
+    gap: 200px;
+}
+.p-names{
+    margin-left: 30px;
+   margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
+.p-names img {
+    margin-right: 10px;
+}
+.footer{
+    margin: 30px 55px;
+}
+.footer-links{
+    margin-top: 30px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #3056A9;
+    font-size: small;
+    margin-right: 10px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.footer-icons{
+    display: flex; 
+    gap: 20px;
+    align-items: center;
+}
+.footer-icons img {
+   border: 1px solid black;
+   height: 30px;
+   background-color: rgb(218, 218, 218);
+    cursor: pointer;
+}
